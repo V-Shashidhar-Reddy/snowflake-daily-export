@@ -38,7 +38,11 @@ TYPE = 'CSV'
 FIELD_DELIMITER = '|'
 HEADER = TRUE;
 
+
+
 ### 2. Create the Stored Procedure
+
+```sql
 Run export_procedure.sql
 It generates dynamic filenames and exports data to S3.
 
