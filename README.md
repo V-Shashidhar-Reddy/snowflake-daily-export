@@ -32,6 +32,9 @@ Ensure you have:
 
 ### 1. Create the File Format  
 (Optional if using inline format)
+
+
+
 CREATE OR REPLACE FILE FORMAT pipe_csv_format
 TYPE = 'CSV'
 FIELD_DELIMITER = '|'
